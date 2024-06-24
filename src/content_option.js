@@ -1,144 +1,85 @@
-const logotext = "JOHN";
+import pongImage from './pong.png';
+import orderly from './orderly.png';
+const logotext = "Hossam";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Hossam Refaie",
+    description: "My name is Hossam Allam, a Computer Engineering student in Istanbul",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I'm Hossam Refaie",
     animated: {
         first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        second: "I graduate in 2025",
+        third: "I support Arsenal :)",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description: "My name is Hossam Allam, I'm an Egyptian university student living in Istanbul, currently approaching my fourth and final year in Computer Engineering. ",
+    your_img_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMMFvmnxxwTL45R3qLVyu-MmMZFplDEzCmDg&s",
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "about my self",
+    aboutme: "I study at Kadir Has University and I have also attended a semester abroad at Sungkyunkwan University in south Korea as part of the student exchange program. I know C++, java, Javascript, SQL, React, and Spring Boot",
 };
 const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
+        jobtitle: "Data structures and algorithms",
+        where: "Sungkyunkwan University",
+        date: "2023",
     },
     {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
+        jobtitle: "Object Oriented Programming",
+        where: "Kadir Has University",
+        date: "2023",
     },
     {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
+        jobtitle: "Software Engineering",
+        where: "Kadir Has University",
+        date: "2024",
+    },
+    {
+        jobtitle: "Database Systems",
+        where: "Kadir Has University",
+        date: "2024",
     },
 ];
 
-const skills = [{
-        name: "Python",
-        value: 90,
-    },
-    {
-        name: "Djano",
-        value: 85,
-    },
-    {
-        name: "Javascript",
-        value: 80,
-    },
-    {
-        name: "React",
-        value: 60,
-    },
-    {
-        name: "Jquery",
-        value: 85,
-    },
-];
 
 const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Football",
+        description: "Watching and playing football has been one of my favourite activities since I was born and remains that way till this day",
     },
     {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Video Games",
+        description: "Mainly League of legends and FIFA. I play on EUNE (summoner name: blatherskite2#saka)",
     },
     {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Coding :)",
+        description: "building small personal projects, learning new concepts online, Leetcode/codewars",
     },
 ];
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: pongImage,
+        description: "Pong game, currently a basic pong game but expect some changes in the future",
+        link: "https://github.com/Hossam-Allam/Pong-game",
     },
     {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: orderly,
+        description: "A restaurant management website built with react that contains that encompasses user and worker experience. Comes with landing, customer, chef, and waiter interfaces",
+        link: "https://github.com/Hossam-Allam/Restaurant-demo",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9XSZtPYc8kwGiDxiY58seQWMbV-s-0pjMag&s",
+        description: "Backend integration built for the restaurant management system project using spring boot. mySQL is used for the database",
+        link: "https://github.com/Hossam-Allam/Restaurant-management-system-backend",
     },
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
+    
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    YOUR_EMAIL: "hossamallam32@gmail.com",
+    YOUR_FONE: "+905522756069",
+    description: "Please reach out :D ",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_id",
@@ -147,17 +88,14 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    github: "https://github.com/hossam-allam",
+    linkedin: "https://www.linkedin.com/in/hossam-hesham-allam-refaie-6674a9282/",
 };
 export {
     meta,
     dataabout,
     dataportfolio,
     worktimeline,
-    skills,
     services,
     introdata,
     contactConfig,
