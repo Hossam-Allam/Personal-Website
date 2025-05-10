@@ -1,5 +1,8 @@
 import pongImage from './pong.png';
 import orderly from './orderly.png';
+import predictFooty from 'predict-footy.jpeg';
+import calculator from './calculator.jpeg';
+import chess from './chess.jpeg';
 const logotext = "Hossam";
 const meta = {
     title: "Hossam Refaie",
@@ -13,13 +16,13 @@ const introdata = {
         second: "I graduate in 2025",
         third: "I support Arsenal :)",
     },
-    description: "My name is Hossam Allam, I'm an Egyptian university student living in Istanbul, currently approaching my fourth and final year in Computer Engineering. ",
+    description: "My name is Hossam Allam, I'm a 22-year old Egyptian computer science student, currently approaching my graduation",
     your_img_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMMFvmnxxwTL45R3qLVyu-MmMZFplDEzCmDg&s",
 };
 
 const dataabout = {
     title: "about my self",
-    aboutme: "I study at Kadir Has University and I have also attended a semester abroad at Sungkyunkwan University in south Korea as part of the student exchange program. I know C++, java, Javascript, SQL, React, and Spring Boot",
+    aboutme: "I'm a passionate computer science student, I enjoy making small projects in my free time and learning new concepts. When I'm not coding then I'm usually watching my favourite team play football",
 };
 const worktimeline = [{
         jobtitle: "Data structures and algorithms",
@@ -28,18 +31,33 @@ const worktimeline = [{
     },
     {
         jobtitle: "Object Oriented Programming",
-        where: "Kadir Has University",
+        where: "RWTH",
         date: "2023",
     },
     {
         jobtitle: "Software Engineering",
-        where: "Kadir Has University",
+        where: "RWTH",
         date: "2024",
     },
     {
         jobtitle: "Database Systems",
-        where: "Kadir Has University",
+        where: "RWTH",
         date: "2024",
+    },
+    {
+        jobtitle: "Machine Learning",
+        where: "RWTH",
+        date: "2025",
+    },
+    {
+        jobtitle: "Evolutionary Algorithms",
+        where: "RWTH",
+        date: "2025",
+    },
+    {
+        jobtitle: "Heuristic Optimization",
+        where: "RWTH",
+        date: "2025",
     },
 ];
 
@@ -58,7 +76,13 @@ const services = [{
     },
 ];
 
-const dataportfolio = [{
+const dataportfolio = [
+     {
+        img: predictFooty,
+        description: "Fullstack Ruby on rails project with API integration that allows users to compete against each other in predicting the results of football matches. ",
+        link: "https://predict-footy-production.up.railway.app/",
+    },
+    {
         img: pongImage,
         description: "Pong game, currently a basic pong game but expect some changes in the future",
         link: "https://github.com/Hossam-Allam/Pong-game",
@@ -69,9 +93,29 @@ const dataportfolio = [{
         link: "https://github.com/Hossam-Allam/Restaurant-demo",
     },
     {
+        img: calculator,
+        description: "Fun calculator project built with vaniilla JS, and CSS.",
+        link: "https://github.com/Hossam-Allam/calculator",
+    },
+    {
         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9XSZtPYc8kwGiDxiY58seQWMbV-s-0pjMag&s",
         description: "Backend integration built for the restaurant management system project using spring boot. mySQL is used for the database",
         link: "https://github.com/Hossam-Allam/Restaurant-management-system-backend",
+    },
+    {
+        img: "https://cdn.prod.website-files.com/6097e0eca1e875de53031ff6/61b9d46d1a3d994fb3866c4c_php%20logo.png",
+        description: "Fullstack PHP project that helps manage field reservations for both the field owner and the customers",
+        link: "https://github.com/Hossam-Allam/Field-Reservation-System",
+    },
+    {
+        img: chess,
+        description: "Fully functional console chesss game built with Ruby",
+        link: "https://github.com/Hossam-Allam/chess",
+    },
+    {
+        img: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/250px-GitHub_Invertocat_Logo.svg.png",
+        description: "You can find all the projects listed above and MORE on my GitHub page",
+        link: "https://github.com/Hossam-Allam",
     },
     
 ];
@@ -89,7 +133,6 @@ const contactConfig = {
 
 const socialprofils = {
     github: "https://github.com/hossam-allam",
-    linkedin: "https://www.linkedin.com/in/hossam-hesham-allam-refaie-6674a9282/",
 };
 export {
     meta,
