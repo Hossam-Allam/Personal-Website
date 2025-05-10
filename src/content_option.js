@@ -1,8 +1,8 @@
 import pongImage from './pong.png';
 import orderly from './orderly.png';
-import predictFooty from 'predict-footy.jpeg';
-import calculator from './calculator.jpeg';
-import chess from './chess.jpeg';
+import predictFooty from './predict-footy.png';
+import calculator from './calculator.png';
+import chess from './chess.png';
 const logotext = "Hossam";
 const meta = {
     title: "Hossam Refaie",
