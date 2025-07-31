@@ -3,6 +3,9 @@ import orderly from './orderly.png';
 import predictFooty from './predict-footy.png';
 import calculator from './calculator.png';
 import chess from './chess.png';
+import lune from './lune.png';
+import weatherly from './weatherly.png';
+import lol from './lol-memory.png'
 const logotext = "Hossam";
 const meta = {
     title: "Hossam Refaie",
@@ -77,6 +80,21 @@ const dataportfolio = [
         img: predictFooty,
         description: "Fullstack Ruby on rails project with API integration that allows users to compete against each other in predicting the results of football matches. ",
         link: "https://predict-footy-production.up.railway.app/",
+    },
+    {
+        img: lune,
+        description: "Concept E-commerce store built using React",
+        link: "https://github.com/Hossam-Allam/online-store",
+    },
+    {
+        img: weatherly,
+        description: "Weather App built using vanilla JS and CSS",
+        link: "https://github.com/Hossam-Allam/Weatherly",
+    },
+    {
+        img: lol,
+        description: "League of Legends memory game built using React and Riot's API",
+        link: "https://github.com/Hossam-Allam/LoL-memory-game",
     },
     {
         img: pongImage,
