@@ -58,7 +58,7 @@ export const About = () => {
 
         <Row className="sec_sp">
           <Col lang="5">
-            <h3 className="color_sec py-4">Hobbies</h3>
+            <h3 className="color_sec py-4">Experience</h3>
           </Col>
           <Col lg="7">
             {services.map((data, i) => {

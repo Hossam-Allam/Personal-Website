@@ -25,59 +25,55 @@ const dataabout = {
     aboutme: "I'm a passionate computer science student, I enjoy making small projects in my free time and learning new concepts. When I'm not coding then I'm usually watching my favourite team play football",
 };
 const worktimeline = [{
-        jobtitle: "Data structures and algorithms",
-        where: "Sungkyunkwan University",
-        date: "2023",
-    },
-    {
-        jobtitle: "Object Oriented Programming",
-        where: "RWTH",
-        date: "2023",
-    },
-    {
-        jobtitle: "Software Engineering",
-        where: "RWTH",
-        date: "2024",
-    },
-    {
-        jobtitle: "Database Systems",
-        where: "RWTH",
-        date: "2024",
-    },
-    {
-        jobtitle: "Machine Learning",
-        where: "RWTH",
-        date: "2025",
-    },
-    {
-        jobtitle: "Evolutionary Algorithms",
-        where: "RWTH",
-        date: "2025",
-    },
-    {
-        jobtitle: "Heuristic Optimization",
-        where: "RWTH",
-        date: "2025",
-    },
+    jobtitle: "Data structures and algorithms",
+    where: "Sungkyunkwan University",
+    date: "2023",
+},
+{
+    jobtitle: "Object Oriented Programming",
+    where: "RWTH",
+    date: "2023",
+},
+{
+    jobtitle: "Software Engineering",
+    where: "RWTH",
+    date: "2024",
+},
+{
+    jobtitle: "Database Systems",
+    where: "RWTH",
+    date: "2024",
+},
+{
+    jobtitle: "Machine Learning",
+    where: "RWTH",
+    date: "2025",
+},
+{
+    jobtitle: "Evolutionary Algorithms",
+    where: "RWTH",
+    date: "2025",
+},
+{
+    jobtitle: "Heuristic Optimization",
+    where: "RWTH",
+    date: "2025",
+},
 ];
 
 
 const services = [{
-        title: "Football",
-        description: "Watching and playing football has been one of my favourite activities since I was born and remains that way till this day",
-    },
-    {
-        title: "Video Games",
-        description: "Mainly League of legends and FIFA. I play on EUNE (summoner name: blatherskite2#saka)",
-    },
-    {
-        title: "Coding :)",
-        description: "building small personal projects, learning new concepts online, Leetcode/codewars",
-    },
+    title: "Digis Squared (06/2025 - Current)",
+    description: "Spearheaded the development of end-to-end Retrieval-Augmented Generation (RAG) systems, orchestrating LLM workflows to deliver more accurate question-answering. Engineered robust vector search pipelines for semantic retrieval, markedly enhancing relevance and contextual understanding. Integrated a Neo4j-backed knowledge graph to support structured knowledge queries, streamlining access to interconnected information.",
+},
+{
+    title: "InternsPK (06/2024 - 07/2025",
+    description: "This was an internship. I worked as a frontend developer, I converted designs to reality using HTML, CSS, Javascript (mainly JQuery). Great emphasis was placed on making the websites accessible and responsive",
+},
 ];
 
 const dataportfolio = [
-     {
+    {
         img: predictFooty,
         description: "Fullstack Ruby on rails project with API integration that allows users to compete against each other in predicting the results of football matches. ",
         link: "https://predict-footy-production.up.railway.app/",
@@ -117,7 +113,7 @@ const dataportfolio = [
         description: "You can find all the projects listed above and MORE on my GitHub page",
         link: "https://github.com/Hossam-Allam",
     },
-    
+
 ];
 
 const contactConfig = {
